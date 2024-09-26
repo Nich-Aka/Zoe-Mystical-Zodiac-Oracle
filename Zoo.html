@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoe's Mystical Zodiac Oracle</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🔮 Zoe's Mystical Zodiac Oracle 🔮</h1>
+        <div id="birthdayForm">
+            <label for="birthdate">Reveal Your Cosmic Date of Origin:</label>
+            <input type="date" id="birthdate" required class="glow">
+            <button onclick="calculateZodiac()">Unveil Your Celestial Destiny</button>
+        </div>
+        <div id="result"></div>
+        <div id="compatibilityCheck" style="display:none;">
+            <h2 style="color: #f1c40f; text-align: center;">Astral Compatibility Divination</h2>
+            <label for="sign1">First Celestial Sign:</label>
+            <input type="text" id="sign1" required>
+            <label for="sign2">Second Celestial Sign:</label>
+            <input type="text" id="sign2" required>
+            <button onclick="checkCompatibility()">Divine Compatibility</button>
+        </div>
+        <div id="compatibilityResult"></div>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="scripts.js"></script>
+</body>
+</html>

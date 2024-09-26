@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+    color: white;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    max-width: 800px;
+    width: 90%;
+}
+h1 {
+    font-family: 'Playfair Display', serif;
+    color: #f1c40f;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #3498db;
+    font-weight: bold;
+}
+input, button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ecf0f1;
+    font-size: 16px;
+}
+input:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #3498db;
+}
+button {
+    background-color: #e74c3c;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+button:hover {
+    background-color: #c0392b;
+}
+#result, #compatibilityResult {
+    background-color: rgba(52, 152, 219, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+#compatibilityCheck {
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+    margin-top: 30px;
+    padding-top: 30px;
+}
+.zodiac-symbol {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+@keyframes glow {
+    0% { box-shadow: 0 0 5px #f1c40f; }
+    50% { box-shadow: 0 0 20px #f1c40f; }
+    100% { box-shadow: 0 0 5px #f1c40f; }
+}
+.glow {
+    animation: glow 2s infinite;
+}
