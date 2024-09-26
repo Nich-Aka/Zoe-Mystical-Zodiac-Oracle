@@ -2,7 +2,7 @@
 
 Zoe's Mystical Zodiac Oracle is an interactive web application that combines astrological calculations with a visually engaging user interface. The project consists of two main components:
 
-1. **C++ Backend**: 
+1. **Javascript Backend**: 
    - Calculates zodiac signs based on birth dates
    - Determines user's age
    - Provides personalized tarot readings
